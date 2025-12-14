@@ -38,6 +38,14 @@
             margin-bottom: 40px;
         }
 
+        /* The Chatbot Container Styling */
+        #chatbot-u54g5a {
+            box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            background: #161b22;
+        }
+
         /* Legal Footer */
         .footer {
             margin-top: 50px;
@@ -56,6 +64,14 @@
         <h1>Data Lair Nexus</h1>
         <p class="subtitle">v1.0 // Decentralized Intelligence Node</p>
 
+        <div id="chatbot-u54g5a"></div>
+        <script src="https://nextrealm.ai/wp-content/plugins/ai-engine-pro/app/embed.js"></script>
+        <script>
+          MwaiChatbot.init({
+            botId: 'chatbot-u54g5a',
+            container: '#chatbot-u54g5a'
+          });
+        </script>
         </div>
 
     <div class="footer">
